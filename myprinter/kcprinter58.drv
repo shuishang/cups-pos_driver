@@ -1,0 +1,52 @@
+// Include standard font and media definitions
+#include <font.defs>
+#include <media.defs>
+
+// List the fonts that are supported, in this case all standard
+// fonts...
+Font *
+
+// Manufacturer, model name, and version
+Manufacturer "RONG TA"
+Version 1.0
+
+Copyright "Copyright 2013 by XIAMEN RONGTA TECHNOLOGY CO.,LTD."
+
+// Supported page sizes
+//      name     width height
+#media "1.89x3.06in" 1.89in 3.06in
+
+Duplex none
+
+HWMargins 0 0 0 0
+
+Cutter no
+
+*MediaSize "1.89x3.06in"
+
+MaxSize 1.89in 322.83in
+MinSize 0.04in 0.01in
+
+VariablePaperSize no
+
+ManualCopies no
+
+*Resolution k 8 0 0 0 "203dpi/203 DPI DraverGray"
+Resolution k 1 0 0 0 "202dpi/203 DPI SystemGray"
+
+// Each filter provided by the driver...
+DriverType custom
+
+Filter application/vnd.cups-raster 100 rastertokc
+
+Filter application/vnd.cups-command 100 commandtokc
+Filter application/x-csource 100 texttokc
+Filter text/plain 100 texttokc
+
+// Now we don't support the banner, 
+// so we process this file as text using texttokc
+Filter application/vnd.cups-banner 100 texttokc
+
+ModelName "RP58"
+ModelNumber 58
+PCFileName "RP58.ppd"

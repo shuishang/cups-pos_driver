@@ -1,0 +1,106 @@
+*PPD-Adobe: "4.3"
+*%%%% PPD file for RP58 with CUPS.
+*%%%% Created by the CUPS PPD Compiler CUPS v1.5.2.
+*% Copyright 2013 by XIAMEN RONGTA TECHNOLOGY CO.,LTD.
+*FormatVersion: "4.3"
+*FileVersion: "1.0"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PCFileName: "RP58.ppd"
+*Product: "(RP58)"
+*Manufacturer: "RONG TA"
+*ModelName: "RONG TA RP58"
+*ShortNickName: "RONG TA RP58"
+*NickName: "RONG TA RP58, 1.0"
+*PSVersion: "(3010.000) 0"
+*LanguageLevel: "3"
+*ColorDevice: False
+*DefaultColorSpace: Gray
+*FileSystem: False
+*Throughput: "1"
+*LandscapeOrientation: Plus90
+*TTRasterizer: Type42
+*cupsVersion: 1.5
+*cupsModelNumber: 58
+*cupsManualCopies: False
+*cupsFilter: "application/vnd.cups-raster 100 rastertokc"
+*cupsFilter: "application/vnd.cups-command 100 commandtokc"
+*cupsFilter: "application/x-csource 100 texttokc"
+*cupsFilter: "text/plain 100 texttokc"
+*cupsFilter: "application/vnd.cups-banner 100 texttokc"
+*cupsLanguages: "en"
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: 1.89x3.06in
+*PageSize 1.89x3.06in/1.89x3.06in: "<</PageSize[136 220]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageSize
+*OpenUI *PageRegion/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: 1.89x3.06in
+*PageRegion 1.89x3.06in/1.89x3.06in: "<</PageSize[136 220]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageRegion
+*DefaultImageableArea: 1.89x3.06in
+*ImageableArea 1.89x3.06in/1.89x3.06in: "0 0 136.080001831055 220.31999206543"
+*DefaultPaperDimension: 1.89x3.06in
+*PaperDimension 1.89x3.06in/1.89x3.06in: "136.080001831055 220.31999206543"
+*OpenUI *cupsDarkness/Darkness: PickOne
+*OrderDependency: 10 AnySetup *cupsDarkness
+*DefaultcupsDarkness: NoDarknessSupport
+*cupsDarkness NoDarknessSupport/Don't Set Darkness: "<</cupsCompression 0>>setpagedevice"
+*cupsDarkness VeryLight/VeryLight: "<</cupsCompression 1>>setpagedevice"
+*cupsDarkness Light/Light: "<</cupsCompression 2>>setpagedevice"
+*cupsDarkness Standard/Standard: "<</cupsCompression 3>>setpagedevice"
+*cupsDarkness Dark/Dark: "<</cupsCompression 4>>setpagedevice"
+*cupsDarkness MoreDark/MoreDark: "<</cupsCompression 5>>setpagedevice"
+*cupsDarkness HardDark/HardDark: "<</cupsCompression 6>>setpagedevice"
+*CloseUI: *cupsDarkness
+*OpenUI *fontSet/Text Plain Font: PickOne
+*OrderDependency: 10 DocumentSetup *fontSet
+*DefaultfontSet: NoFontSetSupport
+*fontSet NoFontSetSupport/Don't Set Font: ""
+*fontSet 12x24/12x24: ""
+*fontSet 9x17/9x17: ""
+*CloseUI: *fontSet
+*OpenUI *Resolution/Resolution: PickOne
+*OrderDependency: 10 AnySetup *Resolution
+*DefaultResolution: 203dpi
+*Resolution 203dpi/203 DPI DraverGray: "<</HWResolution[203 203]/cupsBitsPerColor 8/cupsRowCount 0/cupsRowFeed 0/cupsRowStep 0/cupsColorSpace 3>>setpagedevice"
+*Resolution 202dpi/202 DPI SystemGray: "<</HWResolution[202 202]/cupsBitsPerColor 1/cupsRowCount 0/cupsRowFeed 0/cupsRowStep 0/cupsColorSpace 3>>setpagedevice"
+*CloseUI: *Resolution
+*DefaultFont: Courier
+*Font AvantGarde-Book: Standard "(1.05)" Standard ROM
+*Font AvantGarde-BookOblique: Standard "(1.05)" Standard ROM
+*Font AvantGarde-Demi: Standard "(1.05)" Standard ROM
+*Font AvantGarde-DemiOblique: Standard "(1.05)" Standard ROM
+*Font Bookman-Demi: Standard "(1.05)" Standard ROM
+*Font Bookman-DemiItalic: Standard "(1.05)" Standard ROM
+*Font Bookman-Light: Standard "(1.05)" Standard ROM
+*Font Bookman-LightItalic: Standard "(1.05)" Standard ROM
+*Font Courier: Standard "(1.05)" Standard ROM
+*Font Courier-Bold: Standard "(1.05)" Standard ROM
+*Font Courier-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Courier-Oblique: Standard "(1.05)" Standard ROM
+*Font Helvetica: Standard "(1.05)" Standard ROM
+*Font Helvetica-Bold: Standard "(1.05)" Standard ROM
+*Font Helvetica-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-Bold: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-Oblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Oblique: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Bold: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-BoldItalic: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Italic: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Roman: Standard "(1.05)" Standard ROM
+*Font Palatino-Bold: Standard "(1.05)" Standard ROM
+*Font Palatino-BoldItalic: Standard "(1.05)" Standard ROM
+*Font Palatino-Italic: Standard "(1.05)" Standard ROM
+*Font Palatino-Roman: Standard "(1.05)" Standard ROM
+*Font Symbol: Special "(001.005)" Special ROM
+*Font Times-Bold: Standard "(1.05)" Standard ROM
+*Font Times-BoldItalic: Standard "(1.05)" Standard ROM
+*Font Times-Italic: Standard "(1.05)" Standard ROM
+*Font Times-Roman: Standard "(1.05)" Standard ROM
+*Font ZapfChancery-MediumItalic: Standard "(1.05)" Standard ROM
+*Font ZapfDingbats: Special "(001.005)" Special ROM
+*% End of RP58.ppd, 04956 bytes.
